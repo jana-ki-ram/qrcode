@@ -1,0 +1,122 @@
+
+body
+{
+  margin:0;
+}
+  .main{
+
+  position: relative;
+  height: 550px;
+  width: 340px;
+
+  margin: 75px auto;
+border-radius: 15px;
+
+
+}
+img{
+margin: 20px 20px 0 20px;
+  height:53%;
+  width: 88%;
+position: relative;
+border-radius: 15px;
+
+
+}
+h2
+{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  font-family: 'Outfit', sans-serif;
+}
+p{
+  width: 95%;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+line-height: 1.5;
+margin-bottom: 0;
+}
+.clock
+{
+  position: absolute;
+  right:0;
+  bottom: 16%;
+}
+hr
+{
+  width:90%;
+  border-style: dotted none none none;
+  border:1px solid hsl(215, 32%, 27%);
+
+}
+.price
+{margin-bottom: 20px;
+  margin-top: 10px;
+  position: absolute;
+  left:5%;
+  bottom:12.3%;
+}
+.face{margin:0;
+  height:6%;
+  width: 10%;
+  margin-left: 20px;
+  margin-top: 3px;
+  border:2px solid white;
+  border-radius: 60px;
+}
+.text{
+  position: absolute;
+width: 60%;
+bottom: 5%;
+left: 15%;
+
+}
+.link:hover{
+  color: hsl(178, 100%, 50%);
+
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.name:hover
+{
+  color: hsl(178, 100%, 50%);
+}
+
+.icon{
+  width:11px;
+  height: 18px;
+}
+.time
+{
+  height: 17px;
+  width: 17px;
+  position: absolute;
+  right: 35%;
+}
+.none
+{
+  border-radius: 15px;
+
+
+}
+.none:hover{
+  cursor: context-menu;
+}
+.view{
+  height: 48px;
+  width: 48px;
+}
+.x{
+  height: 100%;
+  width: 100%;
+}
+.x:hover{
+  background:url(images/icon-view.svg) no-repeat center;
+  cursor: pointer;
+}
